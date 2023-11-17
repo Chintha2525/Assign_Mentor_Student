@@ -2,7 +2,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 const express = require('express');
-const { request } = require('http');
 const { dbUrl } = require('./dburl');
 const app = express();
 app.use(express.json());
